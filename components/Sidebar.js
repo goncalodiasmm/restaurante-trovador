@@ -1,5 +1,5 @@
-import { MenuAlt4Icon } from '@heroicons/react/outline'
-import { XIcon } from '@heroicons/react/outline'
+import { HiMenuAlt4 } from 'react-icons/hi'
+import { HiX } from 'react-icons/hi'
 import { useState } from 'react'
 
 const Sidebar = () => {
@@ -22,10 +22,10 @@ const Sidebar = () => {
           <li>Reservas</li>
           <li>Contactos</li>
         </ul>
-        <XIcon className='w-6 cursor-pointer' onClick={handleClick} />
+        <HiX className='text-xl cursor-pointer' onClick={handleClick} />
       </div>
-      <MenuAlt4Icon
-        className={`text-white w-6 cursor-pointer`}
+      <HiMenuAlt4
+        className={`text-white text-xl cursor-pointer`}
         onClick={handleClick}
       />
     </div>

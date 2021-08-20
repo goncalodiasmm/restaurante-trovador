@@ -1,16 +1,14 @@
-import Divider from "./Divider"
-import SectionHeading from "./SectionHeading"
+import SectionHeading from './SectionHeading'
 
-const Menus = () => {
+const Contactos = () => {
   return (
     <div className='bg-[#FBF8F4] w-full p-8 flex flex-col gap-8'>
-      <SectionHeading title='Ementa'/>
+      <SectionHeading title='Contactos' />
       <h1 className='font-serif text-4xl'>
         A tradição da gastronomia portuguesa
       </h1>
-      <Divider />
     </div>
   )
 }
 
-export default Menus
+export default Contactos

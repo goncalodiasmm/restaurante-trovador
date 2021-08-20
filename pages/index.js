@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import Proposition from '../components/Proposition'
 import Scroll from '../components/Scroll'
 import Menus from '../components/Menus'
+import Reservas from '../components/Reservas'
+import Contactos from '../components/Contactos'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Hero />
       <Proposition />
       <Menus />
+      <Reservas />
+      <Contactos />
     </div>
   )
 }
