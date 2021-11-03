@@ -7,4 +7,4 @@ Restaurante Trovador is a website project for a local restaurant. It is currentl
 
 ### Built With
 * [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
+* [TailwindCSS](https://tailwindcss.com/)
