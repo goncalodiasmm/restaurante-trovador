@@ -10,8 +10,12 @@ module.exports = {
         sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: (theme) => ({
-        hero: "url('/img/ubereats-6.jpg')",
+        hero: "url('/img/restaurante-14.jpg')",
       }),
+      colors: {
+        'trovador-primary': '#D9D1B8',
+        'trovador-background': '#FBF8F4',
+      },
     },
   },
   variants: {

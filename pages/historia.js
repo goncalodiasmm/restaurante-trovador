@@ -8,7 +8,7 @@ const Restaurante = () => {
         </h1>
         <img
           loading='lazy'
-          src='/restaurante-5.jpg'
+          src='/img/restaurante-5.jpg'
           alt='restaurante'
           className='max-w-xl flex-grow'
         />
@@ -25,7 +25,7 @@ const Restaurante = () => {
         </p>
         <img
           loading='lazy'
-          src='/fado-1.jpg'
+          src='/img/fado-1.jpg'
           alt='fado'
           className='max-w-xl flex-grow'
         />

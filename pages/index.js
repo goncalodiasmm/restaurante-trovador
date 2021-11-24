@@ -5,6 +5,7 @@ import Scroll from '../components/Scroll'
 import Menus from '../components/Menus'
 import Reservas from '../components/Reservas'
 import Contactos from '../components/Contactos'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Menus />
       <Reservas />
       <Contactos />
+      <Footer />
     </div>
   )
 }
