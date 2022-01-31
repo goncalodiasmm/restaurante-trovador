@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Button from "../atoms/Button";
 import Divider from "../atoms/Divider";
-import { VscQuote } from "react-icons/vsc";
+import { RiChatQuoteFill } from "react-icons/ri";
 
 const Section = ({ header, src, alt, link, button, icon, children }) => {
   return (
@@ -15,11 +15,13 @@ const Section = ({ header, src, alt, link, button, icon, children }) => {
         </div>
       </div>
       {icon && (
-        <VscQuote className="text-4xl lg:text-6xl text-trovador-primary" />
+        <RiChatQuoteFill className="text-4xl lg:text-6xl text-trovador-primary" />
       )}
-      <h1 className="font-serif text-4xl text-center">{header}</h1>
-      <div>
-        <img src={src} alt={alt} className="rounded" />
+      <div className="md:flex">
+        <h1 className="font-serif text-4xl text-center">{header}</h1>
+        <div>
+          <img src={src} alt={alt} className="rounded" />
+        </div>
       </div>
       <Link href={link}>
         <Button>{button}</Button>
