@@ -1,22 +1,23 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class", // or 'media' or 'class'
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: () => ({
         hero: "url('/img/restaurante-14.jpg')",
       }),
       colors: {
-        "trovador-primary": "#D9D1B8",
-        "trovador-background": "#FBF8F4",
+        'trovador-primary': '#D9D1B8',
+        'trovador-background': '#FBF8F4',
       },
     },
   },
   plugins: [],
-};
+}
