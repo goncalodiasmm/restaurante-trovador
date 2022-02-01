@@ -1,5 +1,5 @@
 const Divider = () => {
-  return <div className='border-b-2 w-full bg-gray-100'></div>
+  return <div className="w-full border-b-2 bg-gray-50"></div>
 }
 
 export default Divider
